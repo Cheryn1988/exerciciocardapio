@@ -11,14 +11,9 @@ p { background-color: blue;}
 .container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end
-    flex-wrap: wrap; /* Comportamiento 
-    por defecto: nowrap */
-       background: steelblue;
+    justify-content: flex-end;
     width: 200px;
-    
-    ;
-    }
+        }
     .item {
             background: grey;
     width: 50%; }
