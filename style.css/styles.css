@@ -16,8 +16,6 @@ p { background-color: blue;}
     width: 700px;
         }
     .item {
-            background: grey;
-        align-items: flex-start;
-
+    align-items: flex-start;
     width: 400%; }
     
