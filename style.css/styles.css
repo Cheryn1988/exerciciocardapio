@@ -1,16 +1,15 @@
 
-body {
-    background-color: #e4b3c4;
-  }
-  #teste{
-    width: 1300px;
-    height: 300px;
-    background-image: url(https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+body{
+    width: 800px;
+    height: 890px;
+   background-image: url(/imagens/planodefundo.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-origin: content-box;
-    background-blend-mode: overlay;
-     }
+    background-position: center;
+       background-size: auto;
+  }
+
+
 h1 { color:rgb(22, 12, 12); font-size: 2rem; }
 h2 { color: rgb(22, 12, 12); font-size: 1rem;}
 h3 { color:blue; font-size: small;}
@@ -31,5 +30,6 @@ p { background-color: blue;}
     color: #fff; }
     .item {
     align-items: flex-start;
-    width: 400%; }
+    width: 400%;
+ }
     
