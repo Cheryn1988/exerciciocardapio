@@ -1,11 +1,25 @@
-#logotipo {width: 50px;
+#logotipo { 
+    width: 50px;
     height: 50px;
-    vertical-align: center;
-        position: relative}
+    padding: 10px;
+    }
 
-body {background-color: #eeab9d;
+h1, h2 {
+    line-height: 10px;    
+}
+h4 {
+    line-height: 10px;
+}
+
+.centralizar {
+    text-align: center;
+}
+body {
+background-color: #eeab9d;
 max-width: 1200px;
 margin: auto;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 0.5rem;
 }
 
 h1 { color:rgb(77, 23, 23); font-size: 2rem; vertical-align: text-top;}
@@ -23,13 +37,27 @@ h5 { color:rgb(17, 17, 213); font-size: small;}
     flex-wrap: wrap;
    justify-content: flex-end;
     background-color: #fd7e07;  
-    color: #fff; }
+    color: #fff;
+ }
+
     .item {
     align-items: flex-start;
-        padding: 10px;    ;
+        padding: 10px;
  }
 
  #preço1, #preço2, #preço3 {
     color: black; font-size: big; background-color: rgb(226, 137, 43);
-  }
-  
+    text-decoration: none;
+    border-radius: 10px;
+    text-align:center;
+    font-size:large;
+   }
+   #preço1:hover{
+    background-color: rgba(226, 137, 43, 0.548);
+   }
+   #preço2:hover{
+    background-color: rgba(226, 137, 43, 0.548);
+   }
+   #preço3:hover{
+    background-color: rgba(226, 137, 43, 0.548);
+   }
